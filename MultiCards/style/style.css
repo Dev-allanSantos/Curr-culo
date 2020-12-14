@@ -1,0 +1,63 @@
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color:lightcoral ;
+}
+
+main{
+    background-color: yellow;
+    width:100%; 
+    height:1500px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+div.card{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: green;
+    width: 45%;
+    height: 275px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+form {
+    background-color: red;
+    height: 45%;
+}
+div {
+    background-color: aqua;
+    height: 15%;
+}
+
+div form input {
+    margin-top: 2%;
+    width: 65%;
+    height: 20%;
+    border-radius: 5px;
+}
+
+div div button {
+    margin-top: 2%;
+    width: 50%;
+    border-radius: 25px;
+}
+
+#div_button_cal{
+  width: 100%;
+  margin: 3%
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+ 
+}
+    
+#button_cal 
+{
+    width: 10%;
+}
+    
